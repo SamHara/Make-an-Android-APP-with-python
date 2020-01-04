@@ -40,7 +40,7 @@ The result.
 
 ![Image of Hello World](https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/helloworld.png)
 
-#### Package the python file as apk 
+**Package the python file as apk**
 
 First, make a new folder in Ubantu OS.
 
@@ -52,7 +52,7 @@ buildozer init
 ```
 Then, configure the buildozer.spec file and you should pay attention to the following sentences.
 ```
-\# (list) Application requirements 
+# (list) Application requirements 
 requirements = kivy, twisted, datetime
 ```
 ```
