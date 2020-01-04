@@ -151,11 +151,11 @@ Multiple Screens:
 
 ### 5.Issue
 
-Network Issue
+*Network Issue*
     
-    We have LAN and WAN. The WAN IP can't access the LAN IP  only if you implement intranet penetration. However, I don't do that
+  We have LAN and WAN. The WAN IP can't access the LAN IP  only if you implement intranet penetration. However, I don't do that
 
-Storage Issue
+*Storage Issue*
 
   If you store data in the variables, the data would disapear when you close the APP. Therefore, one of the best ways is to store the data in a file.
 
