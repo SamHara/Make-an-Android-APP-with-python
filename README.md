@@ -1,6 +1,6 @@
 # Making a Android APP with Python
 
-The aim of design is to communicate with a single-chip microcomputer by TCP to complete my practicum.
+The aim of design is to communicate with a single-chip microcomputer by TCP to complete my practicum. Inside the third screen, you should input a special date information to search, e.g. 20191225.
 
 <table>
     <tr>
