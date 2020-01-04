@@ -157,7 +157,7 @@ Network Issue
 
 Storage Issue
 
-    If you store data in the variables, the data would disapear when you close the APP. Therefore, one of the best ways is to store the data in a file.
+  If you store data in the variables, the data would disapear when you close the APP. Therefore, one of the best ways is to store the data in a file.
 
 Last, the offical document is unfriendly to beginners. All in all,  I advise them to find a book to read.
 
