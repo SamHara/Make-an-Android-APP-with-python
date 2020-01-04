@@ -69,8 +69,8 @@ It would take a little time to download and the apk file will appear to the bin 
 
 The most important thing is that understanding some concept.
 
-1. Reactor:
-   1. Event loop
+* Reactor:
+   * Event loop
 
 Transports:
     The details of connection.Such as TCP, a  stream-oriented connection. Interface:
