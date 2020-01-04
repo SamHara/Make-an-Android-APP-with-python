@@ -53,11 +53,9 @@ buildozer init
 Then, configure the buildozer.spec file and you should pay attention to the following sentences.
 
 \# (list) Application requirements 
-
 requirements = kivy, twisted, datetime
 
 \# (list) Permissions
-
 android.permissions = INTERNET
 
 Last, input the following command.
@@ -166,26 +164,3 @@ Last, the offical document is unfriendly to beginners. All in all,  I advise the
 
 
 
-
-
-
-
-
-
-
-First, prepare the  development environment.
-
-Python3.7, kivy, twisted, ubantu18-LST
-
-Now, I will say some troubles that I meet and how I deal with it.
-
-To solve the lld problem above, you can use this common -- apt-get install lld
-
-The WARNING "......hacky stuff......", I don't meet it again when I modify my code.
-
-When you have maked an Android APP and install it inside you phone, you will find that it can't connect to the internet. What causes it  is that permission denied. What's worse, It won't appear to you phone screen. 
-
-To solve this problem, you should open buildozer.spec. And change the configration, like that.
-
-# (list) Permissions
-android.permissions = INTERNET
