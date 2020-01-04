@@ -73,9 +73,9 @@ The most important thing is that understanding some concept.
    * Event loop
 
 * Transports:
- * The details of connection.Such as TCP, a  stream-oriented connection. Interface:
- * write:
-   * Write data to the connection.
+   * The details of connection.Such as TCP, a  stream-oriented connection. Interface:
+   * write:
+   *   Write data to the connection.
 
 Protocols:
     e.g. http.Interface:
