@@ -5,16 +5,16 @@ The aim of design is to conmunicate with a single-chip microcomputer by TCP to c
 <table>
     <tr>
         <td width="25%" height="100%">
-            <img src="https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/Log%20in.jpg" alt="我的照片" />
+            <img src="https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/Log%20in.jpg" alt="Log in" />
         </td>
         <td width="25%" height="100%">
-            <img src="https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/connection.jpg" alt="我的照片" />
+            <img src="https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/connection.jpg" alt="connection" />
         </td>
         <td width="25%" height="100%">
-            <img src="url" alt="我的照片" />
+            <img src="https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/search.jpg" alt="search" />
         </td>        
         <td width="25%" height="100%">
-            <img src="url" alt="我的照片" />
+            <img src="https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/History.jpg" alt="History" />
         </td>
     </tr>
 </table>
