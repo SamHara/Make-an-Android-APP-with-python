@@ -72,10 +72,9 @@ The most important thing is that understanding some concept.
 * Reactor:
    * Event loop
 
-* Transports:
-   * The details of connection.Such as TCP, a  stream-oriented connection. Interface:
+* Transports:The details of connection.Such as TCP, a  stream-oriented connection. Interface:
    * write:
-   *   Write data to the connection.
+      * Write data to the connection.
 
 Protocols:
     e.g. http.Interface:
