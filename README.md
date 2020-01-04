@@ -47,21 +47,22 @@ First, make a new folder in Ubantu OS.
 Second, make a python file nemed main.py, which is specified by the offical.
 
 Third, input the following command.
-
+```
 buildozer init
-
+```
 Then, configure the buildozer.spec file and you should pay attention to the following sentences.
-
+```
 \# (list) Application requirements 
 requirements = kivy, twisted, datetime
-
-\# (list) Permissions
+```
+```
+# (list) Permissions
 android.permissions = INTERNET
-
+```
 Last, input the following command.
-
+```
 buildozer android debug
-
+```
 It would take a little time to download and the apk file will appear to the bin folder.
 
 ## 3.Teisted
@@ -136,7 +137,7 @@ There is an issue, all widgets are inside a single screen. Sometimes, we need to
 
 **(4) Class Reference**
 
-    Sometimes, we have to reference a widget in python file. However, how to access a widget in the kv file? Assume that every widget has an id.
+  Sometimes, we have to reference a widget in python file. However, how to access a widget in the kv file? Assume that every widget has an id.
 
 Single Screen:
     You can use the root.ids dictionary, e.g.self.root.ids['text_input_port']. It will return a class reference.
@@ -147,7 +148,7 @@ Multiple Screens:
 
 **(5) kivy file's name**
 
-    We have a class nemed ClientApp in the python file. Kivy extracts the text Client before the word App. After converting the Client to lowercase, you get a kv file's name. Moreover, if the python file and the kv file are in the same folder. Kivy will locate the KV file.
+  We have a class nemed ClientApp in the python file. Kivy extracts the text Client before the word App. After converting the Client to lowercase, you get a kv file's name. Moreover, if the python file and the kv file are in the same folder. Kivy will locate the KV file.
 
 ## 5.Issue
 
