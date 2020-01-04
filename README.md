@@ -75,17 +75,17 @@ The most important thing is that understanding some concept.
 * Transports:
    * The details of connection.Such as TCP, a  stream-oriented connection. Interface:
       * write:
-         Write data to the connection.
+        Write data to the connection.
 
-Protocols:
-    e.g. http.Interface:
-    connectionMade:
+* Protocols:
+   * e.g. http.Interface:
+      * connectionMade:
         Called when a connection is made.
-    dataReceived:
+      * dataReceived:
         Called when data is received.
 
-Protocol Factories:
-    Create a protocol for each new connection.
+* Protocol Factories:
+   * Create a protocol for each new connection.
 
 #### The template of server code:
 ```javascript
