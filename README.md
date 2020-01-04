@@ -2,11 +2,11 @@
 
 The aim of design is to conmunicate with a single-chip microcomputer by TCP to complete my practicum.
 
-1.Development Environment 
-2.Packaging
-3.Twisted
-4.Kivy
-5.Issue
+1. Development Environment 
+2. Packaging
+3. Twisted
+4. Kivy
+5. Issue
 
 ### 1.Development Environment
 
