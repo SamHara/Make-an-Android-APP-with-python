@@ -38,7 +38,7 @@ A class inherits kivy.app.App. Then, Its build() method is the first function to
 
 The result.
 
-![Image of Hello World](https://octodex.github.com/images/yaktocat.png)
+![Image of Hello World](https://github.com/SamHara/Make-an-Android-APP-with-python/blob/master/helloworld.png)
 
 #### Package the python file as apk 
 
@@ -53,9 +53,11 @@ buildozer init
 Then, configure the buildozer.spec file and you should pay attention to the following sentences.
 
 \# (list) Application requirements 
+
 requirements = kivy, twisted, datetime
 
 \# (list) Permissions
+
 android.permissions = INTERNET
 
 Last, input the following command.
