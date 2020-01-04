@@ -1,6 +1,6 @@
 # Making a Android APP with Python
 
-The aim of design is to conmunicate with a single-chip microcomputer by TCP to complete my practicum.
+The aim of design is to communicate with a single-chip microcomputer by TCP to complete my practicum.
 
 <table>
     <tr>
