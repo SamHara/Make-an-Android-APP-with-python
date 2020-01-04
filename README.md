@@ -139,12 +139,12 @@ There is an issue, all widgets are inside a single screen. Sometimes, we need to
 
   Sometimes, we have to reference a widget in python file. However, how to access a widget in the kv file? Assume that every widget has an id.
 
-Single Screen:
-    You can use the root.ids dictionary, e.g.self.root.ids['text_input_port']. It will return a class reference.
+* Single Screen:
+   * You can use the root.ids dictionary, e.g.self.root.ids['text_input_port']. It will return a class reference.
 
-Multiple Screens:
-    In order to access the screens, you can use this statement self.root.screens[num]. The num of that represents the screen's index. For example, the screen called MainScreen is the first element and thus its index is 0.After returning the class reference, we can access any widget within it.
-    self.root.screens[0].ids['text_input_port']
+* Multiple Screens:
+   * In order to access the screens, you can use this statement self.root.screens[num]. The num of that represents the screen's index. For example, the screen called MainScreen is the first element and thus its index is 0.After returning the class reference, we can access any widget within it.
+   * self.root.screens[0].ids['text_input_port']
 
 **(5) kivy file's name**
 
