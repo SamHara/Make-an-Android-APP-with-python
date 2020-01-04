@@ -8,7 +8,7 @@ The aim of design is to conmunicate with a single-chip microcomputer by TCP to c
 4. Kivy
 5. Issue
 
-### 1.Development Environment
+## 1.Development Environment
 
 Ubantu18 -LTS
 
@@ -22,7 +22,7 @@ Buildozer
 
 All of the above are free to use and you can install them according to the offical document.
 
-### 2.Packaging
+## 2.Packaging
 
 ```javascript
 from kivy.app import App
@@ -64,7 +64,7 @@ buildozer android debug
 
 It would take a little time to download and the apk file will appear to the bin folder.
 
-### 3.Teisted
+## 3.Teisted
 
 The most important thing is that understanding some concept.
 
@@ -108,7 +108,7 @@ class ClientFactory(protocol.ClientFactory):
 reactor.connectTCP('localhost',8000,ClientFactory())
 reactor.run()
 ```
-# 4.Kivy
+## 4.Kivy
 
 ```javascript
 from kivy.app import App
@@ -122,19 +122,19 @@ TestApp().run()
 ```
 The build() method above returns a root called widget.
 
-(1) Widget
+**(1) Widget**
 
 e.g. Label, TextInput, Button
 
-(2) Layout
+**(2) Layout**
 
 It is sure that the code above only has a root called widget. If you want to have two widgets, you should add multiple widget to a container called Layout as a root. There are a series of Layouts in kivy, e.g. FloatLayout.
 
-(3) Multiple Screens
+**(3) Multiple Screens**
 
 There is an issue, all widgets are inside a single screen. Sometimes, we need to have more the one  screen to work. The kivy provides kivy.uix.screenmanager.ScreenManager class to manage screens which are created by the kivy.uix.screenmanager.Screen class. Obviously, it is suitable to use ScreenManager as a root.
 
-(4) Class Reference
+**(4) Class Reference**
 
     Sometimes, we have to reference a widget in python file. However, how to access a widget in the kv file? Assume that every widget has an id.
 
@@ -145,11 +145,11 @@ Multiple Screens:
     In order to access the screens, you can use this statement self.root.screens[num]. The num of that represents the screen's index. For example, the screen called MainScreen is the first element and thus its index is 0.After returning the class reference, we can access any widget within it.
     self.root.screens[0].ids['text_input_port']
 
-(5) kivy file's name
+**(5) kivy file's name**
 
     We have a class nemed ClientApp in the python file. Kivy extracts the text Client before the word App. After converting the Client to lowercase, you get a kv file's name. Moreover, if the python file and the kv file are in the same folder. Kivy will locate the KV file.
 
-### 5.Issue
+## 5.Issue
 
 *Network Issue*
     
